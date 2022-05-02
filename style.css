@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+}
+body {
+    height: 100%;
+    background-color: rgb(228, 215, 215);
+}
+.container{
+    background-color: rgb(253, 248, 241);
+    margin: 3%;
+    border-radius: 5px;
+    padding-left: 5%;
+}
+.logo{
+    display: flex;
+     margin: 0 10px;
+}
+.logo img{
+    margin-top: 2%;
+}
+.nav-bar{
+    margin: 0 10px;
+    margin-left: 20%;
+}
+header{
+    color: #49A2FC;
+    margin-top: 3%;
+}
+header span{
+    color: rgb(46, 15, 15);
+}
+.nav-bar nav{
+    display: flex;
+}
+.nav-bar nav ul a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+.heading h1{
+    color: rgb(46, 15, 15);
+    margin-top: 2%;
+    font-size: 250%;
+}
+.words p{
+    margin-top: 2%;
+    color: gray;
+    font-size: 90%;
+}
+span{
+    color: #00A3AC;
+}
+.nav-bar h3{
+    background-color:rgb(65, 113, 218) ;
+    margin-left: 30%;
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    padding-top: 1%;
+}
+.buttons{
+    display: flex;
+    margin-top: 2%;
+}
+.buttons .contact-us{
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 5px  rgb(216, 156, 156);
+}
+.buttons .project{
+    border-radius: 20px;
+    color: brown;
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgb(163, 149, 149);
+}
+.project{
+    margin-left: 2%;
+}
+.image{
+    margin-left: 50%;
+    margin-top: -20%; 
+    background-image: url(colorsplash-removebg-preview.png);
+}
+.icons{
+    display: flex;
+    margin-top: 3%;
+    padding-left: 5%;
+    margin-left: -5%;
+}
+#icon1{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+#icon2{
+    background-color:rgb(62, 202, 179);
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 3%;
+}
+.cont{
+    display: flex;
+    padding-left: 15%;
+    border-radius: 5px;
+}
+.nums{
+    background-color: white;
+    margin-left: 0.3%;
+    width: 250px;
+    text-align: center;
+    height: 80px;
+
+}
+.icons-2{
+    display: flex;
+    margin-left: -2%;
+    margin-top: 3%;
+}
+.part1{
+    margin-left: 5%;
+    width: 250px;
+    display: flex;
+}
+.part2{
+    margin-top: 2%;
+}
+.contact-us{
+    background-color:rgb(62, 202, 179);
+    border-radius: 5%;
+}
+.srv{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.srv img{
+    margin-top: -1%;
+}
+.info{
+    text-align: center;
+    justify-content: center;
+    color: rgb(46, 15, 15);
+    margin-top: 2%;
+}
+.info h3{
+    font-size: 200%;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin: 2% ;
+}
+.box1{
+    background-color:rgb(202, 226, 222) ;
+    padding-left: 2%;
+    width: 30%;
+    height: 200px;
+    padding-top: 2%;
+}
+.box1 i{
+    border: 1px solid black;
+    border-radius: 80px;
+    border: none;
+    background-color: rgb(244, 244, 252);
+    color: rgb(85, 100, 236);;
+    font-size: 30px;
+}
+.box2{
+    background-color: rgb(62, 202, 179);
+    padding-left: 2%;
+    padding-top: 2%;
+    width: 30%;
+    height: 200px;
+    
+    
+}
+.box2 i{
+    border: 1px solid black;
+    border-radius: 80px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding:8px;
+}
+.box3{
+    background-color:rgb(202, 226, 222) ;
+    padding-left: 2%;
+    width: 30%;
+    height: 200px;
+    padding-top: 2%;
+}
+.box3 i{
+    border: 1px solid black;
+    border-radius: 80px;
+    border: none;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding:8px;
+}
+.how-do-we{
+    display: flex;
+    margin-top: 10%;
+}
+.info2{
+    margin-left: 10%;
+    
+}
+.imge img{
+    background-image: url(colorsplash-removebg-preview.png);
+}
+.srv2{
+    display: flex;
+}
+.info2 h3{
+    color: rgb(46, 15, 15);
+}
+.cont3{
+    margin-top: -2%;
+    background-color: rgb(253, 248, 241);
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.info3{
+    text-align: center;
+    justify-content: center;
+}
+.info3 h2{
+    font-size: 200%;
+}
+.info3 p{
+    font-size: 70%;
+}
+#subscribe{
+    padding: 2%;
+    margin-left: 20%;
+    background-color: #00A3AC;
+    border-radius: 2px;
+}
+.login{
+    margin-left: 25%;
+    width: 50%;
+    height: 50px;
+
+}
+.login input{
+    background-color: rgb(62, 202, 179);
+    padding: 2px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+}
+.login .subs{
+    background-color: rgb(85, 100, 236);
+    margin-left: -18%;
+    border-radius: 5px;
+}
+.cont4{
+    margin-top: 1%;
+    background-color: rgb(253, 248, 241);
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 5%;
+}
+.line1{
+    background-color: beige;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 120%;
+    color: rgb(46, 15, 15);
+    box-shadow: 5px 5px 5px 5px rgb(218, 212, 212);
+}
+.btn1{
+border: 1px solid black;
+border-radius: 80px;
+border: none;
+background-color: rgb(62, 202, 179);
+color: rgb(255, 255, 255);
+font-size: 100%;
+}
+.line2{
+    width: 100%;
+    border-radius: 10px;
+    font-size: 120%;
+    color: rgb(46, 15, 15);
+}
+.btn2{
+    border: 1px solid black;
+    border-radius: 80px;
+    border: none;
+    background-color: rgb(39, 39, 199);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+}
+.btn3{
+    border: 1px solid black;
+    border-radius: 80px;
+    border: none;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+}
+.send-sms{
+    width: 130px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color: #00A3AC;
+    height: 30px;
+    box-shadow: 5px 5px rgb(248, 221, 226);
+    margin-top: 3%;
+}
+.input-field{
+    height: 50px;
+    background-color: rgb(248, 221, 226);
+    border: none;
+    width: 350px;
+}
+#input-field{
+    background-color: rgb(248, 221, 226);
+    border: none;
+    width: 350px;
+  
+    height: 30px;
+}
+.srv3{
+    margin-top: 3%;
+}
+.sms h2{
+    font-size: 200%;
+    color: rgb(46, 15, 15);
+}
