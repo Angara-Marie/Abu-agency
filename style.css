@@ -40,12 +40,12 @@ header span{
 .heading h1{
     color: rgb(46, 15, 15);
     margin-top: 2%;
-    font-size: 250%;
+    font-size: 350%;
 }
 .words p{
     margin-top: 2%;
     color: gray;
-    font-size: 90%;
+    font-size: 115%;
 }
 span{
     color: #00A3AC;
@@ -64,7 +64,8 @@ span{
     margin-top: 2%;
 }
 .buttons .contact-us{
-    width: 150px;
+    width: 170px;
+    height: 40px;
     border-radius: 20px;
     color: white;
     border: none;
@@ -72,6 +73,8 @@ span{
 }
 .buttons .project{
     border-radius: 20px;
+    width: 150px;
+    height: 50px;
     color: brown;
     border: none;
     box-shadow: 5px 5px 5px 5px rgb(163, 149, 149);
@@ -94,7 +97,6 @@ span{
     background-color: orange;
     padding: 5px;
     border-radius: 50%;
-
 }
 #icon2{
     background-color:rgb(62, 202, 179);
@@ -120,7 +122,7 @@ span{
 .icons-2{
     display: flex;
     margin-left: -2%;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .part1{
     margin-left: 5%;
@@ -149,18 +151,29 @@ span{
     margin-top: 2%;
 }
 .info h3{
-    font-size: 200%;
+    font-size: 300%;
+}
+.cont2{
+    margin-top: 5%;
 }
 .boxes{
     display: flex;
     justify-content: center;
     margin: 2% ;
 }
+.boxes h4{
+    padding-top: 30px;
+    font-size: larger;
+}
+.boxes p{
+    padding-top: 25px;
+    font-size: larger;
+}
 .box1{
     background-color:rgb(202, 226, 222) ;
     padding-left: 2%;
     width: 30%;
-    height: 200px;
+    height: 325px;
     padding-top: 2%;
 }
 .box1 i{
@@ -169,14 +182,14 @@ span{
     border: none;
     background-color: rgb(244, 244, 252);
     color: rgb(85, 100, 236);;
-    font-size: 30px;
+    font-size: 50px;
 }
 .box2{
     background-color: rgb(62, 202, 179);
     padding-left: 2%;
     padding-top: 2%;
     width: 30%;
-    height: 200px;
+    height: 325px;
     
     
 }
@@ -192,7 +205,7 @@ span{
     background-color:rgb(202, 226, 222) ;
     padding-left: 2%;
     width: 30%;
-    height: 200px;
+    height: 325px;
     padding-top: 2%;
 }
 .box3 i{
@@ -229,16 +242,17 @@ span{
     border-radius: 5px;
     text-align: center;
     justify-content: center;
+    height: 200px;
 }
 .info3{
     text-align: center;
     justify-content: center;
 }
 .info3 h2{
-    font-size: 200%;
+    font-size: 300%;
 }
 .info3 p{
-    font-size: 70%;
+    font-size: 120%;
 }
 #subscribe{
     padding: 2%;
@@ -255,16 +269,18 @@ span{
 .login input{
     background-color: rgb(62, 202, 179);
     padding: 2px;
-    width: 300px;
-    height: 30px;
+    width: 500px;
+    height: 50px;
     border: 1px solid black;
     border-radius: 10px;
     color: white;
 }
 .login .subs{
     background-color: rgb(85, 100, 236);
-    margin-left: -18%;
+    margin-left: -20%;
     border-radius: 5px;
+    width: 100px;
+    height: 35px;
 }
 .cont4{
     margin-top: 1%;
@@ -279,9 +295,10 @@ span{
     background-color: beige;
     width: 100%;
     border-radius: 10px;
-    font-size: 120%;
+    font-size: 150%;
     color: rgb(46, 15, 15);
     box-shadow: 5px 5px 5px 5px rgb(218, 212, 212);
+    /* padding-top: 5%; */
 }
 .btn1{
 border: 1px solid black;
@@ -294,8 +311,9 @@ font-size: 100%;
 .line2{
     width: 100%;
     border-radius: 10px;
-    font-size: 120%;
+    font-size: 150%;
     color: rgb(46, 15, 15);
+    padding-top: 7%;
 }
 .btn2{
     border: 1px solid black;
@@ -340,6 +358,9 @@ font-size: 100%;
     margin-top: 3%;
 }
 .sms h2{
-    font-size: 200%;
+    font-size: 300%;
     color: rgb(46, 15, 15);
+}
+label{
+    font-size: 120%;
 }
